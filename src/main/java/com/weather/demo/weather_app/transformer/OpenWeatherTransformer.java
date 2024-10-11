@@ -12,6 +12,8 @@ public class OpenWeatherTransformer {
         return CityWeather.builder()
                 .weather(entity.getWeather()[0].getMain())
                 .details(entity.getWeather()[0].getDescription())
+                .temperature(entity.getMain().getTemp())
+                .realFeel(entity.getMain().getFeelsLike())
                 .build();
     }
 
@@ -19,6 +21,8 @@ public class OpenWeatherTransformer {
         return WeatherResponse.builder()
                 .weather(cityWeather.getWeather())
                 .details(cityWeather.getDetails())
+                .temperature(cityWeather.getTemperature())
+                .realFeel(cityWeather.getRealFeel())
                 .build();
     }
 }

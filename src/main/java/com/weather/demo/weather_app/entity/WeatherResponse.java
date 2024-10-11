@@ -10,5 +10,7 @@ import lombok.*;
 public class WeatherResponse {
     private String weather;
     private String details;
+    private Double temperature;
+    private Double realFeel;
 
 }
