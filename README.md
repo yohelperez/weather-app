@@ -1,22 +1,23 @@
 # weather-app
 
 ### Weather Information Service
-![image](https://github.com/user-attachments/assets/dd0cc08a-b2ed-4922-a396-76ac8e3fc30b)
+
+![image](https://github.com/user-attachments/assets/6e420e39-8b98-42cd-81fc-722e29d3686d)
 
 ### Overview
-This Spring Boot application provides weather information for a given city by utilizing the OpenWeatherMap Geocoding API to fetch the city's coordinates, and then retrieving the weather data using the OpenWeatherMap Current Weather Data API. The service is accessible through a RESTful endpoint.
+This is a full-stack weather application built using Spring Boot on the back-end and JavaScript (with TailwindCSS) on the front-end. The application fetches and displays real-time weather information for a given city by utilizing the OpenWeatherMap API.
 
 ### Features
 * City Weather Lookup: Fetch current weather information for any city.
-* Coordinates Retrieval: Automatically obtain the geographical coordinates of the city using the Geocoding API.
-* Unit Testing: Includes JUnit tests to ensure that the application correctly retrieves and processes weather data.
+* Detailed current weather information (temperature, real feel, etc.).
+* Dynamic weather icons.
 
 ### Technologies Used
-* Spring Boot: For building the RESTful web service.
-* Java 8: As the programming language.
-* OpenWeatherMap API: For obtaining geolocation and weather data.
-* JUnit: For unit testing.
-* Postman: For testing the API endpoints.
+* Backend: Spring Boot, Java 8
+* Frontend: HTML, CSS (TailwindCSS), JavaScript
+* API: OpenWeatherMap
+* Testing: JUnit
+* Deployment: Render.com
 
 ### Installation and Setup
 
@@ -30,3 +31,7 @@ This Spring Boot application provides weather information for a given city by ut
 4. Testing the Endpoint:
 * Use Postman or any REST client to send a GET request to the following endpoint: http://localhost:8080/api/v1/weather/{city}
 * Replace {city} with the name of the city for which you want to retrieve weather information.
+
+### Live demo
+
+You can try the deployed version of the app on Render.com here: https://weather-app-6in8.onrender.com
