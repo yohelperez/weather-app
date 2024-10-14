@@ -1,6 +1,6 @@
 async function getWeather() {
     const city = document.getElementById('city').value;
-    const response = await fetch(`http://localhost:8080/api/v1/weather/${city}`);
+    const response = await fetch(`https://weather-app-6in8.onrender.com/api/v1/weather/${city}`);
 
     if (!response.ok) {
         document.getElementById('result').innerHTML = `<p>Error: ${response.statusText}</p>`;
