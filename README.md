@@ -2,7 +2,7 @@
 
 ### Weather Information Service
 
-![image](https://github.com/user-attachments/assets/6e420e39-8b98-42cd-81fc-722e29d3686d)
+![image](https://github.com/user-attachments/assets/f2363293-ef82-4f09-a717-e029c4f8ed08)
 
 ### Overview
 This is a full-stack weather application built using Spring Boot on the back-end and JavaScript (with TailwindCSS) on the front-end. The application fetches and displays real-time weather information for a given city by utilizing the OpenWeatherMap API.
