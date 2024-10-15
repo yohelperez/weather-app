@@ -12,4 +12,5 @@ public class CityWeather {
     private String details;
     private Double temperature;
     private Double realFeel;
+    private String icon;
 }

@@ -12,5 +12,5 @@ public class WeatherResponse {
     private String details;
     private Double temperature;
     private Double realFeel;
-
+    private String iconUrl;
 }
